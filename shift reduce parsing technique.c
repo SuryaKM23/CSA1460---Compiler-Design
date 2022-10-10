@@ -59,7 +59,7 @@ stack[st_ptr]=ip_sym[ip_ptr];
 
 stack[st_ptr+1]='\0';
 ip_sym[ip_ptr]='';
-ip_ptr++;             
+ip_ptr++;Â Â Â Â Â Â Â Â Â Â Â Â Â 
 
 printf("\n $%s\t\t%s$\t\t\t%s",stack,ip_sym,act);
 
@@ -121,7 +121,7 @@ flag=1;
 
 if((!strcmpi(stack,"E+E"))||(!strcmpi(stack,"E\E"))||(!strcmpi(stack,"E*E")))
 
-{       
+{Â Â Â Â Â Â Â 
 
 strcpy(stack,"E");
 
@@ -169,7 +169,7 @@ if(flag==0)
 
 printf("\n%s\t\t\t%s\t\t reject",stack,ip_sym);
 
-exit(0);                
+exit(0);Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â 
 
 }
 
